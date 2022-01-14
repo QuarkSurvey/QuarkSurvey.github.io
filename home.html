@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Quark</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+  p {font-size: 22px}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Quark</h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" style="font-size: 22px" class="w3-bar-item w3-button w3-hover-white">Home</a>
+    <a href="#contact" onclick="w3_close()" style="font-size: 22px" class="w3-bar-item w3-button w3-hover-white">Presentation</a> 
+    <a href="#designers" onclick="w3_close()" style="font-size: 22px" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="#services" onclick="w3_close()" style="font-size: 22px" class="w3-bar-item w3-button w3-hover-white">Mission</a>
+    
+   
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Quark Survey</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Quark </b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>sondage</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- survey grid (google form survey) -->
+    <!-- so if  -->
+        
+
+
+    
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeI0PMl3Um1y93O_Q4q3TSUySUrEkIPGrEWliFIMGtN_yfhmg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  
+
+  
+  
+  
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  
+  
+    <!-- Presentation -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Présentation</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Toutes la matière est composée d'atomes qui sont eux même composés de protons, d’électrons et de neutrons. C’est particule nommé des hadrons sont également composé d’une certaine particule : Le Quark. Voici à quoi nous aspirons. Nous souhaitons être une composante primordiale dans votre entreprise. Nous souhaitons vous aider afin que nous formions vos fondations.
+
+
+    </p>
+  </div>
+  
+  
+  
+
+  <!-- Services -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Services.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Nos services sont simples, nous aidons les entreprises émergentes à évoluer en leur fournissant de l’information concernant des marchés potentiels dont ils peuvent profiter. Les informations sont obtenues via divers sondages fait sur commande. Nous pouvons également conseiller certaines questions qui permettraient un meilleur résultat.
+Notre second service est une vente de site web vous permettant d’accéder à un marché web sans limite physique. 
+
+
+    </p>
+  </div>
+  
+  
+  
+  
+  <!-- Presentation -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Notre Mission</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Aider à l'expansion et l’organisation d’entreprise émergente afin d’en faire de future multinational via l’offre d’information de divers marché potentiel et des modification ou réorientation de leur modèle financier.
+
+
+
+    </p>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<!-- End page content -->
+</div>
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:40px;padding-right:58px"><p class="w3-right">Website by <a href="https://twitter.com/Opaxfn" title="W3.CSS" target="_blank" class="w3-hover-opacity">Ariyaman</a></p></div>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
